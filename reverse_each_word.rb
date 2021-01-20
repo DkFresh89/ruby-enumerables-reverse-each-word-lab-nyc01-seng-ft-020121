@@ -5,5 +5,5 @@ def reverse_each_word(string)
     string.split do |sentence|
     myarray.unshift (sentence.reverse)
   end 
-  return newarray
+  return myarray
 end 
