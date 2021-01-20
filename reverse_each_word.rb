@@ -1,7 +1,7 @@
 require 'pry' 
 
 def reverse_each_word(string)
- string.split.each do |sentence|
+ string.split.collect do |sentence|
    return sentence.reverse 
   end 
 
