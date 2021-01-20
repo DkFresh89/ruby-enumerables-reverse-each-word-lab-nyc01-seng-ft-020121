@@ -1,7 +1,7 @@
 require 'pry' 
 
 def reverse_each_word(string)
-  string.collect do |turn|
+  string.each do |turn|
     turn.reverse 
   end 
 end 
