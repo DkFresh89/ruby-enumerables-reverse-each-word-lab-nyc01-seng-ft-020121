@@ -1,7 +1,7 @@
 require 'pry' 
 
 def reverse_each_word(string)
-  string.split(" ") do string.each 
+  string.split(" ") do
   return string.reverse 
    
   end 
