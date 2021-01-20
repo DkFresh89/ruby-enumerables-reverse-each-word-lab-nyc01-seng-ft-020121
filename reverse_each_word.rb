@@ -3,7 +3,6 @@ require 'pry'
 def reverse_each_word(string)
   string.split(" ") do |sentence|
   #binding.pry 
-  sentence.reverse
+ puts  sentence.reverse
   end 
-  return sentence
 end 
