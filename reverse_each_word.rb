@@ -3,6 +3,6 @@ require 'pry'
 def reverse_each_word(string)
   newarray = []
   string.each do |sentence|
-    sentence.reverse
+    newarray << sentence.reverse
   end 
 end 
