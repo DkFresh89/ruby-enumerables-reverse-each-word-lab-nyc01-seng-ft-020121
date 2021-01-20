@@ -1,7 +1,10 @@
 require 'pry' 
 
 def reverse_each_word(string)
+  holder = []
   string.split(" ") do |sentence|
-  return sentence.reverse.each 
+    
+  holder[sentence.reverse]
+  return holder
   end 
 end 
